@@ -2,13 +2,31 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaGithub, FaExternalLinkAlt, FaWordpress, FaElementor, FaJs, FaHtml5, FaGitAlt, FaCss3, FaBootstrap } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt, FaWordpress, FaElementor, FaJs, FaHtml5, FaGitAlt, FaCss3, FaBootstrap, FaShopify } from 'react-icons/fa'
 import { SiNextdotjs, SiReact, SiTailwindcss, SiNodedotjs } from 'react-icons/si'
 
 export default function Projects() {
   const [hoveredProject, setHoveredProject] = useState(null)
 
   const projects = [
+
+{
+      name: 'Wish Toys',
+      description: 'E-commerce store',
+      image: './images/wishtoys.png?height=400&width=600&text=wishtoys',
+      technologies: [FaShopify],
+      link: 'https://wishtoys.com.au/',
+      status: 'Completed',
+    },
+{
+      name: 'Dharmik',
+      description: 'E-commerce store',
+      image: './images/dharmik.png?height=400&width=600&text=dharmik',
+      technologies: [FaShopify],
+      link: 'https://dharmik.in/',
+      status: 'Completed',
+    },
+
     {
       name: 'George Academy',
       description: 'LMS Platform for ICSE Borad Students.',
@@ -16,6 +34,15 @@ export default function Projects() {
       technologies: [FaWordpress, FaElementor],
       link: 'https://georgeacademy.in/',
       status: 'Completed',
+    },
+
+    {
+      name: 'Curanex',
+      description: 'Clinic Marketing Agency',
+      image: './images/curanex.png?height=400&width=600&text=curanex',
+      technologies: [FaWordpress, FaElementor],
+      link: 'https://curanex.in/',
+      status: 'Ongoing',
     },
 
     {
@@ -55,9 +82,9 @@ export default function Projects() {
     },
 
     {
-      name: 'Color Palette Master',
+      name: 'Paletelly',
       description: 'Create Stunning Color Palettes in Seconds',
-      image: './images/color.png?height=400&width=600&text=betterDevs',
+      image: './images/color.png?height=400&width=600&text=palettely',
       technologies: [SiNextdotjs, SiReact, SiTailwindcss],
       link: 'https://color-palette-master.netlify.app/',
       status: 'Completed',
@@ -69,15 +96,6 @@ export default function Projects() {
       image: './images/robotree.png?height=400&width=600&text=betterDevs',
       technologies: [FaWordpress, FaElementor],
       link: 'https://robotree.in/',
-      status: 'Ongoing',
-    },
-
-    {
-      name: 'Nickname Realm',
-      description: 'Providing you with a diverse collection of unique and creative nicknames for all platforms.',
-      image: './images/nickname.png?height=400&width=600&text=betterDevs',
-      technologies: [SiNextdotjs, SiReact, SiTailwindcss],
-      link: 'https://nicknamerealm.com/',
       status: 'Completed',
     },
 
@@ -104,7 +122,7 @@ export default function Projects() {
       description: 'A tool based web app that helps user to check website responsiveness on different divices.',
       image: './images/responsive.png?height=400&width=600&text=betterDevs',
       technologies: [SiNextdotjs, SiReact, SiTailwindcss],
-      link: 'https://responsive-website-checker.netlify.app/',
+      link: 'https://www.responsivechecker.site/',
       status: 'Completed',
     },
   ]

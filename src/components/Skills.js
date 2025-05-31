@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { FaJs, FaReact, FaNodeJs, FaHtml5, FaGitAlt, FaCss3, FaGithub, FaBootstrap, FaSearchengin, FaFigma } from 'react-icons/fa'
+import { FaJs, FaReact, FaNodeJs, FaHtml5, FaGitAlt, FaCss3, FaGithub, FaBootstrap, FaSearchengin, FaShopify } from 'react-icons/fa'
 import { SiNextdotjs, SiWordpress, SiCanva, SiTailwindcss } from 'react-icons/si'
 import { DiPhotoshop } from 'react-icons/di'
 
@@ -84,21 +84,15 @@ export default function Skills() {
       link: 'https://www.canva.com/' 
   },
   { 
-    name: 'Phtoshop', 
-    icon: DiPhotoshop, 
-    color: 'text-[#2FA3F7]', // Official  Photoshop color
-    link: 'https://www.adobe.com/in/products/photoshop.html' 
-},
-  { 
-    name: 'Figma', 
-    icon: FaFigma, 
-    color: 'text-[#EA4C1D]', // Official  Figma color
-    link: 'https://www.figma.com/' 
+    name: 'Shopify', 
+    icon: FaShopify , 
+    color: 'text-[#138210]', // Official  Figma color
+    link: 'https://www.shopify.com/' 
 }
   ]
 
   const experiences = [
-    { period: '2020 — 2024', position: 'Web Developer and UI/UX Designer', company: 'AVM Pvt. Ltd.' },
+    { period: '2022 — 2025', position: 'Web Developer', company: 'AddVentures Media' },
   ]
 
   return (

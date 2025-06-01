@@ -86,7 +86,7 @@ export default function Projects() {
       description: 'Create Stunning Color Palettes in Seconds',
       image: './images/color.png?height=400&width=600&text=palettely',
       technologies: [SiNextdotjs, SiReact, SiTailwindcss],
-      link: 'https://color-palette-master.netlify.app/',
+      link: 'https://palettely.co/',
       status: 'Completed',
     },
 

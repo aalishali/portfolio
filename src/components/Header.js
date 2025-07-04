@@ -50,7 +50,7 @@ export default function Header({ scrolled }) {
       >
         {/* <a href="#" className="text-gray-400 hover:text-white"><FaTwitter /></a> */}
         <a href="https://github.com/asgar4ever" className="text-gray-400 hover:text-white"><FaGithub /></a>
-        <a href="https://www.linkedin.com/in/asgar-ali-6b1598253/" className="text-gray-400 hover:text-white"><FaLinkedin /></a>
+        <a href="https://www.linkedin.com/in/asgar4ever/" className="text-gray-400 hover:text-white"><FaLinkedin /></a>
         {/* <button className="text-gray-400 hover:text-white"><BsMoonFill /></button> */}
       </motion.div>
     </motion.header>

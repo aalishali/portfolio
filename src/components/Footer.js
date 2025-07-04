@@ -15,7 +15,7 @@ export default function Footer() {
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/asgar-ali-6b1598253/',
+      url: 'https://www.linkedin.com/in/asgar4ever/',
       icon: FaLinkedin
     }
   ]
